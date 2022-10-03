@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "poetry-django-poc"
+version = "0.1.0"
+description = "POC for django project managed with poetry"
+authors = ["bruvio <bruno.viola@genomicsengland.co.uk>"]
+readme = "README.md"
+packages = [{include = "poetry_django_poc"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
